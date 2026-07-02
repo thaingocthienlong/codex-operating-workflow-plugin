@@ -1,0 +1,34 @@
+{
+  "name": "codex-operating-workflow",
+  "version": "0.1.0",
+  "description": "Portable Codex operating workflow skill and templates.",
+  "author": {
+    "name": "Vien Phuong Nam"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "workflow",
+    "planning",
+    "verification",
+    "handoff"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Operating Workflow",
+    "shortDescription": "Classify work, route tools, verify, and hand off safely.",
+    "longDescription": "A portable Codex workflow for repo tasks: lane selection, tool routing, verification gates, reporting, rollback notes, and reusable templates without MCP servers or hooks.",
+    "developerName": "Vien Phuong Nam",
+    "category": "Productivity",
+    "capabilities": [
+      "Planning",
+      "Verification",
+      "Productivity"
+    ],
+    "defaultPrompt": [
+      "Use Codex operating workflow for this repo task.",
+      "Classify lane, route tools, then verify.",
+      "Create a handoff report for this change."
+    ]
+  }
+}
