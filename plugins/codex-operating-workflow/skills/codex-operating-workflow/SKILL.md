@@ -30,7 +30,6 @@ Classify the lane first. Use the lightest workflow that honestly covers the requ
 - Use Codex Security for repository, diff, or finding-level security work.
 - Use browser/chrome tooling for browser-visible proof, UI checks, localhost checks, screenshots, and user-facing flows.
 - Use GitHub tools for PR, issue, CI, or remote repository work.
-- Do not route through stale duplicate process surfaces such as `superpowers-mcp-augment`, `ultipowers`, stale Serena hooks, or disabled local MCPs.
 
 ## Standard Flow
 
